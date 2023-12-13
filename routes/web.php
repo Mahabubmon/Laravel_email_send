@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//route for mail
 Route::post('/sendBacancyMail', [MailController::class, 'sendMail'])->name('send.email');
