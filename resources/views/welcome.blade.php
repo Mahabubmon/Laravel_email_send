@@ -856,6 +856,10 @@
                                 <input style="background:DarkGrey; width:500px; height:35px" type="text" name="name"
                                     value="" />
                                 <br>
+                                <h6>Enter Message</h6>
+                                <input style="background:DarkGrey; width:500px; height:35px" type="text-area"
+                                    name="message" value="" />
+                                <br>
                                 <h6>Enter Email </h6>
                                 <input style="background:DarkGrey; width:500px; height:35px" type="email" name="email"
                                     id="email">

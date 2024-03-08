@@ -18,8 +18,8 @@ class MailController extends Controller
 
         $body = [
             'name' => $data['name'],
-            'url_a' => 'https://www.bacancytechnology.com/',
-            'url_b' => 'https://www.bacancytechnology.com/tutorials/laravel',
+            'url_a' => 'this is test',
+            'url_b' => 'try',
         ];
 
         Mail::to($email)->send(new BacancyMail($body));
