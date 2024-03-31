@@ -6,6 +6,7 @@ use App\Mail\BacancyMail;
 use Illuminate\Http\Request;
 use Mail;
 
+//Controller potion
 class MailController extends Controller
 {
     public function sendMail(Request $request)
