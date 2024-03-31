@@ -19,7 +19,7 @@ class MailController extends Controller
 
         $body = [
             'name' => $data['name'],
-            'url_a' => 'this is test',
+            'url_a' => 'try to send another message for testing purpuse',
             'url_b' => 'try',
         ];
 

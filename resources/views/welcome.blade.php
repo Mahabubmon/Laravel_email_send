@@ -841,7 +841,7 @@
             </div>
             @endif
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                <h2>Bacancy Technology Mail Sending Tutorials</h2>
+                <h2>Mail from my side</h2>
             </div>
 
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
