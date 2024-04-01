@@ -40,7 +40,7 @@ class Demomail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.demoMail',
+            view: 'email.demoMail',
         );
     }
 
