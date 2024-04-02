@@ -13,3 +13,4 @@ Route::get('/', function () {
 // Route::get('send-mail', [MailController::class, 'index']);
 Route::get('email', [EmailTemplateController::class, 'index']);
 Route::post('/send-email', [EmailController::class, 'sendEmail'])->name('send.email');
+Route::get('mail', [MailController::class, 'mail']);
