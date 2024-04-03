@@ -1,13 +1,13 @@
-<!-- resources/views/mail.blade.php -->
+<table>
+    <th>
+        <td>Name</td>
+        <td>Phone</td>
+        <td>Address</td>
+    </th>
 
-<form method="POST" action="{{ route('send.email') }}">
-    @csrf
-
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-
-    <label for="message">Message</label>
-    <textarea name="message" id="message"></textarea>
-
-    <button type="submit">Send</button>
-</form>
+    <tr>
+        <td>{{$name}}</td>
+        <td>{{$phone}}</td>
+        <td>{{$address}}</td>
+    </tr>
+</table>

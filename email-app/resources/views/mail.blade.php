@@ -27,7 +27,7 @@
                         <input type="text" class="form-control" name="phone">
                     </div>
                     <div class="form-group">
-                        <label for="">Addre</label>
+                        <label for="">Address</label>
                         <textarea name="address" id="address" cols="30" rows="10"></textarea>
                         
                     </div>
