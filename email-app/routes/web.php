@@ -9,3 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('mail', [TestController::class, 'mail']);
+
+Route::post('send/mail/data', [TestController::class, 'send_mail_data'])->name('send.mail.data');
